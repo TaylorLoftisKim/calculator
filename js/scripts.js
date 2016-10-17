@@ -1,13 +1,10 @@
 var sentence = prompt("Please enter a long sentence.");
 
 var firstLast = function(sentence) {
-  return sentence[0] + sentence[sentence.length -1];
+  return sentence[0].toUpperCase() + sentence.substring(1,sentence.length -1) +sentence[sentence.length -1].toUpperCase();
 };
 
 alert(firstLast(sentence));
-
-
-
 
 
 
