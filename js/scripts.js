@@ -1,29 +1,68 @@
-var add = function(number1, number2) {
-	return number1 + number2;
+var sentence = prompt("Please enter a long sentence.");
+
+var firstLast = function(sentence) {
+  return sentence[0] + sentence[sentence.length -1];
 };
 
-var subtract = function(number1, number2) {
-	return number1 - number2;
-};
-
-var multiply = function(number1, number2) {
-	return number1 * number2;
-};
-
-var divide = function(number1, number2) {
-	return number1 / number2;
-};
+alert(firstLast(sentence));
 
 
-var number1 = parseInt(prompt("Enter a number:"));
-var number2 = parseInt(prompt("Enter a number:"));
 
-alert(add(number1, number2));
 
-Writing the alert into a variable to add
-var result = add(number1, number2);
-alert(result);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var add = function(number1, number2) {
+// 	return number1 + number2;
+// };
+//
+// var subtract = function(number1, number2) {
+// 	return number1 - number2;
+// };
+//
+// var multiply = function(number1, number2) {
+// 	return number1 * number2;
+// };
+//
+// var divide = function(number1, number2) {
+// 	return number1 / number2;
+// };
+//
+//
+// var number1 = parseInt(prompt("Enter a number:"));
+// var number2 = parseInt(prompt("Enter a number:"));
+//
+// alert(add(number1, number2));
+//
+// Writing the alert into a variable to add
+// var result = add(number1, number2);
+// alert(result);
+//
 
 
 // our body mass function begins here
@@ -44,14 +83,3 @@ alert(result);
     // };
     //
     // alert(conversion(fahrenheit));
-
-
-
-
-
-
-
-
-
-
-    
